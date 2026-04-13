@@ -1,0 +1,92 @@
+NOTE FOR PARTICIPANTS — READ BEFORE COPYING THE JSON BELOW
+===========================================================
+This file is the complete, correct configuration for Windows.
+It contains two comment blocks (lines beginning with NOTE:) to explain
+what each section does. JSON does not support comments natively — these
+lines are here for your understanding only.
+
+⚠️  IMPORTANT: If you copy this entire file into Notepad, you MUST delete
+    all comment lines (any line starting with NOTE:) before saving.
+    A valid mcp.json must contain JSON only — no plain-text notes.
+    The clean JSON-only version starts after the dashed line below.
+
+Substitutions required (two changes only):
+  1. Replace  tvly-YOUR_TAVILY_API_KEY_HERE  with your actual Tavily key
+     (it starts with tvly- and was copied from app.tavily.com)
+  2. Replace  C:\\Users\\YOUR_USERNAME\\Documents\\ARK-Industries\\
+     with the actual path to the folder containing your ARK Industries files
+
+⚠️  BACKSLASH RULE: Every \ in a Windows path must be written as \\ in JSON.
+    File Explorer shows:   C:\Users\Joan\Documents\ARK-Industries
+    In this file you type: C:\\Users\\Joan\\Documents\\ARK-Industries
+    Using single backslashes will cause an ENOENT error and the Filesystem
+    MCP will not connect.
+
+-----------------------------------------------------------------------
+
+{
+  "mcpServers": {
+
+    "tavily": {
+      "command": "npx",
+      "args": ["-y", "tavily-mcp@0.1.4"],
+      "env": {
+        "TAVILY_API_KEY": "tvly-YOUR_TAVILY_API_KEY_HERE"
+      }
+    },
+
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\YOUR_USERNAME\\Documents\\ARK-Industries\\"
+      ]
+    }
+
+  }
+}
+
+-----------------------------------------------------------------------
+
+LINE-BY-LINE EXPLANATION (for reference — not part of the JSON)
+================================================================
+
+"mcpServers"
+  The top-level key that LM Studio reads to find your MCP tool
+  configurations. Everything sits inside this block.
+
+"tavily"
+  The name LM Studio uses to identify this tool. You will see
+  "mcp/tavily" appear in the Integrations panel when it connects.
+
+"command": "npx"
+  Tells LM Studio to use Node.js's npx runner to launch this server.
+  You do not need to understand npx — Node.js (installed in Phase 1)
+  handles this automatically.
+
+"args": ["-y", "tavily-mcp@0.1.4"]
+  Downloads and runs version 0.1.4 of the Tavily MCP server package.
+  The -y flag means "yes, install automatically without asking".
+
+"TAVILY_API_KEY": "tvly-YOUR_TAVILY_API_KEY_HERE"
+  Replace the placeholder with your actual key from app.tavily.com.
+  The key must stay inside the double quotes.
+
+"filesystem"
+  The name LM Studio uses to identify the file access tool. You will
+  see "mcp/filesystem" in the Integrations panel when it connects.
+
+"@modelcontextprotocol/server-filesystem"
+  The official open-source Filesystem MCP server package, maintained
+  by Anthropic. This is what gives the AI read access to your folder.
+
+"C:\\Users\\YOUR_USERNAME\\Documents\\ARK-Industries\\"
+  Replace this with the path to your ARK Industries folder —
+  using double backslashes throughout.
+  Example (if your Windows username is jsmith):
+    "C:\\Users\\jsmith\\Documents\\ARK-Industries\\"
+  If your Documents folder is on OneDrive:
+    "C:\\Users\\jsmith\\OneDrive\\Documents\\ARK-Industries\\"
+  Copy the path directly from the File Explorer address bar,
+  then manually double every backslash.

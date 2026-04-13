@@ -1,0 +1,104 @@
+NOTE FOR PARTICIPANTS — READ BEFORE COPYING THE JSON BELOW
+===========================================================
+This file is the complete, correct configuration for macOS.
+It contains two comment blocks (lines beginning with NOTE:) to explain
+what each section does. JSON does not support comments natively — these
+lines are here for your understanding only.
+
+⚠️  IMPORTANT: If you copy this entire file into a text editor, you MUST
+    delete all comment lines (any line starting with NOTE:) before saving.
+    A valid mcp.json must contain JSON only — no plain-text notes.
+    The clean JSON-only version starts after the dashed line below.
+
+Substitutions required (two changes only):
+  1. Replace  tvly-YOUR_TAVILY_API_KEY_HERE  with your actual Tavily key
+     (it starts with tvly- and was copied from app.tavily.com)
+  2. Replace  /Users/YOUR_USERNAME/Documents/ARK-Industries/
+     with the actual path to the folder containing your ARK Industries files
+
+IMPORTANT FOR MAC USERS — forward slashes, not backslashes:
+  macOS paths use forward slashes ( / ) and single slashes are correct.
+  Do NOT double the slashes on Mac — that is a Windows-only requirement.
+  Writing // instead of / on a Mac path will cause a connection error.
+
+  File Explorer (Finder) shows:  /Users/joan/Documents/ARK-Industries
+  In this file you type exactly:  /Users/joan/Documents/ARK-Industries/
+  (Just one forward slash between each folder name — no doubling needed.)
+
+The correct file location on Mac is:
+  ~/.lmstudio/mcp.json
+
+Open it in your terminal with:
+  open -e ~/.lmstudio/mcp.json
+
+Or in any plain-text editor (TextEdit set to plain text, VS Code, etc.)
+Do not use LM Studio's built-in mcp.json editor — it does not save reliably.
+
+-----------------------------------------------------------------------
+
+{
+  "mcpServers": {
+
+    "tavily": {
+      "command": "npx",
+      "args": ["-y", "tavily-mcp@0.1.4"],
+      "env": {
+        "TAVILY_API_KEY": "tvly-YOUR_TAVILY_API_KEY_HERE"
+      }
+    },
+
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/YOUR_USERNAME/Documents/ARK-Industries/"
+      ]
+    }
+
+  }
+}
+
+-----------------------------------------------------------------------
+
+LINE-BY-LINE EXPLANATION (for reference — not part of the JSON)
+================================================================
+
+"mcpServers"
+  The top-level key that LM Studio reads to find your MCP tool
+  configurations. Everything sits inside this block.
+
+"tavily"
+  The name LM Studio uses to identify this tool. You will see
+  "mcp/tavily" appear in the Integrations panel when it connects.
+
+"command": "npx"
+  Tells LM Studio to use Node.js's npx runner to launch this server.
+  You do not need to understand npx — Node.js (installed in Phase 1)
+  handles this automatically.
+
+"args": ["-y", "tavily-mcp@0.1.4"]
+  Downloads and runs version 0.1.4 of the Tavily MCP server package.
+  The -y flag means "yes, install automatically without asking".
+
+"TAVILY_API_KEY": "tvly-YOUR_TAVILY_API_KEY_HERE"
+  Replace the placeholder with your actual key from app.tavily.com.
+  The key must stay inside the double quotes.
+
+"filesystem"
+  The name LM Studio uses to identify the file access tool. You will
+  see "mcp/filesystem" in the Integrations panel when it connects.
+
+"@modelcontextprotocol/server-filesystem"
+  The official open-source Filesystem MCP server package, maintained
+  by Anthropic. This is what gives the AI read access to your folder.
+
+"/Users/YOUR_USERNAME/Documents/ARK-Industries/"
+  Replace this with the path to your ARK Industries folder.
+  Use single forward slashes throughout — no doubling.
+  Example (if your Mac username is jsmith):
+    "/Users/jsmith/Documents/ARK-Industries/"
+  To find your exact path: open Finder, navigate to the folder,
+  right-click the folder and choose "Get Info" — the full path
+  appears under "Where". Or drag the folder into a Terminal window
+  to reveal its path automatically.
