@@ -1,4 +1,4 @@
-# Cisco AI Technical Workshop — London, 16 June 2026
+# Cisco AI Technical Workshop — London, 30 June 2026
 
 Welcome. You're in exactly the right place. This repository is your companion for the day — everything you need for every session lives here, in the order we'll work through it. No hunting through emails, Slack threads, or external sites. If it's part of the workshop, it's in one of the folders below.
 
