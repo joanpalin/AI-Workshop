@@ -30,7 +30,7 @@ Work through the folders in the order listed below — each one has its own `REA
 
 | Time | Session | Where to look |
 |---|---|---|
-| 09:15–09:30 | Welcome & Introductions | You're here ✅ |
+| 09:00–09:30 | Welcome & Introductions | You're here ✅ |
 | 09:30–11:00 | **Session 1 — AI Fundamentals** | [`Session 1/`](./Session%201/) |
 | 11:00–11:15 | Break ☕ | — |
 | 11:15–12:30 | **Session 2 — Building AI Assistants** | [`Session 2/`](./Session%202/) |
