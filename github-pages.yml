@@ -1,0 +1,58 @@
+# Build the Starlight site and publish to GitHub Pages.
+#
+# This workflow assumes the Astro project lives in ./workshop-site/ at the
+# repository root (e.g. joanpalin/AI-Workshop with a workshop-site folder).
+# If your Astro project IS the repo root, set SITE_DIR to "." below and use
+# base: '/' in workshop-site/astro.config.mjs instead of '/AI-Workshop'.
+#
+# Repo settings: Settings → Pages → Build and deployment → Source: GitHub Actions.
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  SITE_DIR: workshop-site
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ${{ env.SITE_DIR }}/package-lock.json
+
+      - name: Install and build
+        run: |
+          npm ci
+          npm run build
+        working-directory: ${{ env.SITE_DIR }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.SITE_DIR }}/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
