@@ -1,63 +1,71 @@
-# Cisco AI Technical Workshop — London, 30 June 2026
+# Session 1: AI Fundamentals
 
-Welcome. You're in exactly the right place. This repository is your companion for the day — everything you need for every session lives here, in the order we'll work through it. No hunting through emails, Slack threads, or external sites. If it's part of the workshop, it's in one of the folders below.
-
----
-
-## Our Three North Stars
-
-Everything we do today comes back to these three ideas:
-
-1. **No Code Required** — You don't need to be a developer. If you can edit a document and follow a recipe, you can do everything in this workshop.
-2. **Low Cost, High Accessibility** — Every tool we use today is free or free-tier. No GPUs, no enterprise licences, no corporate credit card. You can rebuild all of this at your desk on Monday morning.
-3. **AI as a Co-Pilot** — AI doesn't replace your expertise as an IT Operator, Architect, or Manager. It augments it. You stay in the driver's seat; AI helps you get there faster.
+**Duration:** 90 minutes · **Format:** Presentation + Group Activity · **Laptops:** Not required for this session
 
 ---
 
-## How to Use This Repository Today
+Welcome to Session 1. If the morning has felt like stepping into unfamiliar territory, this is the session that makes it familiar. There is no code, no terminal, and nothing to install. For the next 90 minutes, your job is simply to listen, ask questions, and think.
 
-The folders are numbered in the order we'll visit them. Work through them top to bottom — each one has its own `README.md` that orients you when you arrive.
-
-1. **[`00_before_you_start/`](./00_before_you_start/)** — Pre-flight checks. If your laptop is set up, skim this and move on.
-2. **[`01_session_1_ai_fundamentals/`](./01_session_1_ai_fundamentals/)** — What an LLM actually is, what MCP and RAG mean in plain English, and a short group activity.
-3. **[`02_session_2_building_ai_assistants/`](./02_session_2_building_ai_assistants/)** — Your first hands-on lab: a local AI assistant in Jan AI, connected to live web search and your own files. The `lab_guide.md` is your main companion here.
-4. **[`03_session_3_building_agentic_ai/`](./03_session_3_building_agentic_ai/)** — From assistant to agent. You'll configure Jan AI Projects, run the ARK Industries IT Policy Intelligence Agent, and design a use case of your own.
-5. **[`04_session_4_securing_ai/`](./04_session_4_securing_ai/)** — The risks, the guardrails, and where Cisco AI Access and AI Defense fit in.
-6. **[`05_takeaways/`](./05_takeaways/)** — The most important folder. Your Monday-morning action plan, a manager brief email template, and next-step learning resources. This is what survives past 4:30.
+By the time you leave this room at 11:00 a.m., the rest of the day will make considerably more sense.
 
 ---
 
-## Today's Schedule
+## What You Will Be Able to Do by the End of This Session
 
-| Time | Session | Where to look |
-|---|---|---|
-| 09:15–09:30 | Welcome & Introductions | You're here ✅ |
-| 09:30–11:00 | **Session 1 — AI Fundamentals** | [`01_session_1_ai_fundamentals/`](./01_session_1_ai_fundamentals/) |
-| 11:00–11:15 | Break ☕ | — |
-| 11:15–12:30 | **Session 2 — Building AI Assistants** | [`02_session_2_building_ai_assistants/`](./02_session_2_building_ai_assistants/) |
-| 12:30–13:00 | Lunch 🍽️ | — |
-| 13:00–14:30 | **Session 3 — Building Agentic AI** | [`03_session_3_building_agentic_ai/`](./03_session_3_building_agentic_ai/) |
-| 14:30–14:45 | Break ☕ | — |
-| 14:45–16:00 | **Session 4 — Securing AI** | [`04_session_4_securing_ai/`](./04_session_4_securing_ai/) |
-| 16:00–16:30 | General Discussion & Q&A | — |
-| Take home | **Your Monday-morning kit** | [`05_takeaways/`](./05_takeaways/) |
+1. **Explain what an LLM is in plain English** — not the marketing version, but the honest version: what it can do, what it genuinely cannot do, and why that matters before you build anything on top of one.
+
+2. **Describe what MCP, RAG, and Tools mean — and why they matter** — these are the three concepts that turn an AI chatbot into something an IT team can actually rely on. You will be able to define each one without jargon and explain the problem each one solves.
+
+3. **Articulate why AI integration — not AI alone — is where the real value lives** — the model is not the product. The connections are. By the end of this session, you will be able to say clearly why a well-connected average model outperforms a brilliant isolated one, and where Cisco fits in that picture.
 
 ---
 
-## Stuck?
+## How This Session Works
 
-It happens — especially in hands-on labs on shared Wi-Fi. Look here in order:
+The first hour is facilitator-led — a presentation with discussion woven in. Expect to be asked questions, not just talked at. The session is designed around analogies, because analogies are how experienced professionals actually absorb new frameworks quickly. You do not need to memorise definitions. You need to be able to reason with the concepts.
 
-1. **The `troubleshooting.md` inside the session folder you're working in.** Most answers are here.
-2. **Pre-workshop issues:** [`00_before_you_start/troubleshooting.md`](./00_before_you_start/troubleshooting.md)
-3. **Raise a hand.** The facilitator is walking the room during every lab. Don't spend more than five minutes stuck.
+The final 30 minutes is a group activity (see below). It requires nothing but your experience, a pen, and the people sitting next to you.
 
 ---
 
-## Glossary
+## Your Reference File
 
-Every acronym used today — LLM, MCP, RAG, HITL, and the rest — is defined in plain English in one place: [`glossary.md`](./glossary.md). Keep it open in a tab.
+**`key_concepts.md`** — open this file and keep it to hand throughout the day. It contains plain-English definitions and analogies for every term used in the workshop: LLM, Prompt, Context Window, RAG, MCP, Tools, Skills, Agentic AI, Human-in-the-Loop, and System Prompt.
+
+> If a term comes up that you do not recognise, check `key_concepts.md` in this folder or `glossary.md` at the root of the repository. Every term is defined there without assumed knowledge.
+
+You are not expected to have read it before the session begins. It is a reference, not pre-reading.
 
 ---
 
-**Ready to start?** Head to [`01_session_1_ai_fundamentals/`](./01_session_1_ai_fundamentals/) when the facilitator gives the signal. 👋
+## The Group Activity — The ARK Industries Co-Pilot Audit
+
+Towards the end of Session 1, you will spend 30 minutes working in small groups of three or four.
+
+**The scenario:** ARK Industries — the fictional IT-intensive company that runs through the entire day — has given your group a small budget and one instruction: identify where an AI co-pilot would genuinely help, and where it should be kept well away.
+
+No laptops. No AI. This is a thinking exercise, and deliberately so. The point is to use your own professional judgement — the same judgement you would apply to any infrastructure or tooling decision — before you have touched a single tool.
+
+Each group will work through three questions for a set of candidate workflows:
+
+- What does the AI need to **know** to do this job?
+- What **tools** does it need access to?
+- Where does a **human need to stay in the loop** before anything irreversible happens?
+
+Groups share back to the room. There are no wrong answers — only answers that are more or less well-reasoned.
+
+> **➡ The full activity instructions, scoring framework, and ARK Industries scenarios are in `group_activity_worksheet.md` in this folder.** You do not need to read it in advance — the facilitator will walk you through it.
+
+---
+
+## What Comes Next
+
+At 11:00 a.m. you move to **Session 2: Building AI Assistants**. That is where the laptops come out for the first time.
+
+You will install a local AI runtime, connect it to two external tools — web search and file access — and use the finished assistant to analyse a real ARK Industries network report. Everything you do in that lab is built on the concepts from this session.
+
+The clearer the foundations here, the faster the lab moves there.
+
+---
+
+*Session 1 of 4 · Cisco AI Technical Workshop · 16 June 2026 · Park House, London*
