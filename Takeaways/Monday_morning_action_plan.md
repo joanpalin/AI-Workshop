@@ -91,6 +91,4 @@ That is the entire skill. You practised it today. Now you continue.
 
 ---
 
-*Cisco AI Technical Workshop — London, 16 June 2026*
-*Tools used: Jan AI (jan.ai) · Tavily (app.tavily.com)*
 *All tools free or open source. No code required.*
