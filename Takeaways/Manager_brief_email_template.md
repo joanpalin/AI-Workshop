@@ -36,8 +36,6 @@ This is a low-risk starting point precisely because the tools stay local, the sc
 
 **The ask:** Could we find 30 minutes [THIS WEEK / NEXT WEEK] to talk through the scope and decide whether it is worth proceeding? I have the workshop materials, the lab files, and a one-page agent brief I put together on the back of today that might be useful context.
 
-I am happy to share the GitHub repository from the workshop as background reading — it contains the lab guides, system prompt templates, and the governance framework we used, all of which are openly available.
-
 [YOUR NAME]
 [YOUR ROLE]
 [YOUR CONTACT DETAILS]
