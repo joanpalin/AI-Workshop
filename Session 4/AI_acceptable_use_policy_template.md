@@ -207,6 +207,3 @@ Not all AI outputs carry the same risk. Use this section to define where human r
 
 ---
 
-*This document was produced as a workshop exercise at the Cisco AI Technical Workshop, London, 16 June 2026.*  
-*Remove this footer and replace with your organisation's standard document footer before any internal use.*  
-*Questions during the session: contact the IT Security team at [security@ark-industries.co.uk]*
