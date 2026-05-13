@@ -12,7 +12,7 @@ Now this session asks the question that has probably been forming in the back of
 
 That is not a hypothetical question. Every component of the architecture you built today — the local model, the MCP-connected tools, the agentic workflow — exists in enterprise deployments at scale right now. And in most organisations, the governance layer to protect it does not yet exist.
 
-This session changes that. By 4:00 p.m., you will have named the specific threats AI introduces, understood why visibility must come before policy, seen Cisco's purpose-built response in a live environment, and produced a draft AI Acceptable Use Policy you can take back to your organisation and use.
+This session changes that. By the end, you will have named the specific threats AI introduces, understood why visibility must come before policy, seen Cisco's purpose-built response in a live environment, and produced a draft AI Acceptable Use Policy you can take back to your organisation and use.
 
 ---
 
@@ -81,10 +81,8 @@ By the time this session closes, you will have:
 
 ## What Comes Next
 
-This session is the final structured block of the day. At **4:00 p.m.**, the workshop moves into the **General Discussion & Q&A** — an open forum where the facilitators, Cisco team, and the room work through the questions that have been building throughout the day.
+This session is the final structured block of the day. After this, the workshop moves into the **General Discussion & Q&A** — an open forum where the facilitators, Cisco team, and the room work through the questions that have been building throughout the day.
 
 Bring your whiteboard votes from this session. Bring your AUP draft. Bring the thing you want to build first.
 
 ---
-
-*Cisco AI Technical Workshop — London, 16 June 2026 | Session 4: Securing AI*
