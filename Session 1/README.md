@@ -66,5 +66,3 @@ You will install a local AI runtime, connect it to two external tools — web se
 The clearer the foundations here, the faster the lab moves there.
 
 ---
-
-*Session 1 of 4 · Cisco AI Technical Workshop · 16 June 2026 · Park House, London*
