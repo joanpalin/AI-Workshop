@@ -1,6 +1,5 @@
 # Session 1: AI Fundamentals
 
-**Duration:** 90 minutes · **Format:** Presentation + Group Activity · **Laptops:** Not required for this session
 
 ---
 
