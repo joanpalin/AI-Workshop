@@ -1,4 +1,4 @@
-# Takeaways — Cisco AI Technical Workshop, London, 16 June 2026
+# Takeaways — Cisco AI Technical Workshop
 
 ## This folder is your Monday morning kit. The workshop is over, but the work starts now.
 
@@ -15,6 +15,3 @@ Everything you built today — the AI assistant, the agentic workflow, the draft
 | `cisco_learning_resources.md` | A curated, link-bearing list of next-step learning resources — from Cisco U and DevNet to Jan AI documentation and Tavily — so you know exactly where to go when you want to go deeper. | Keep this as a reference and share it with colleagues who were not in the room today. |
 
 ---
-
-*Cisco AI Technical Workshop — London, 16 June 2026*
-*"In four hours. Using tools that are free or nearly free. Without writing a single line of code."*
