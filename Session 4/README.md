@@ -1,8 +1,5 @@
 # Session 4: Securing AI
 
-**Cisco AI Technical Workshop — London, 16 June 2026**
-**2:30 p.m. – 4:00 p.m. | Park House, London**
-
 ---
 
 ## What This Session Is About
