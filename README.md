@@ -1,4 +1,4 @@
-# Cisco AI Technical Workshop — London, 30 June 2026
+# Cisco AI Technical Workshop
 
 Welcome. You're in exactly the right place. This repository is your companion for the day — everything you need for every session lives here, in the order we'll work through it. No hunting through emails, Slack threads, or external sites. If it's part of the workshop, it's in one of the folders below.
 
@@ -47,8 +47,7 @@ Work through the folders in the order listed below — each one has its own `REA
 
 It happens — especially in hands-on labs on shared Wi-Fi. Look here in order:
 
-1. **The `troubleshooting.md` inside the session folder you're working in.** Most answers are here.
-2. **Raise a hand.** The facilitator is walking the room during every lab. Don't spend more than five minutes stuck.
+1. **Raise a hand.** The facilitator is walking the room during every lab. Don't spend more than five minutes stuck.
 
 ---
 
