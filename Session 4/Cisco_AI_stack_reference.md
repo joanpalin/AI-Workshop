@@ -1,6 +1,5 @@
 # Cisco AI Access & AI Defense — Reference Card
 
-**Cisco AI Technical Workshop — London, 16 June 2026**
 **Session 4: Securing AI**
 
 ---
@@ -165,5 +164,4 @@ The organisations that act on this now — even with a first draft and a single 
 
 ---
 
-*Cisco AI Technical Workshop — London, 16 June 2026 | Session 4: Securing AI*
 *This reference card is yours to keep. The blank AI Acceptable Use Policy template (`ai_acceptable_use_policy_template.md`) is in this folder — adapt it for your organisation.*
