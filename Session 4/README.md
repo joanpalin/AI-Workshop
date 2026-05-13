@@ -6,7 +6,7 @@
 
 You have spent the day building things. In Session 2, you gave an AI assistant access to tools and live data. In Session 3, you ran an autonomous agent that searched the web, read internal documents, and produced a structured output — pausing for your approval before it finished.
 
-Now this session asks the question that has probably been forming in the back of your mind since about 11 o'clock this morning:
+Now this session asks the question that has probably been forming in the back of your mind since the morning:
 
 > **What happens when this goes wrong, gets misused, or is deliberately attacked?**
 
