@@ -196,5 +196,3 @@ Use the space below to note what your group wants to share:
 *There is no right answer to bring back. What matters is the thinking you did to get there.*
 
 ---
-
-*Cisco AI Technical Workshop · Session 1: AI Fundamentals · ARK Industries scenario thread*
