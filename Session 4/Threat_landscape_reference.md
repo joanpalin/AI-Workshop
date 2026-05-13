@@ -1,6 +1,5 @@
 # AI Threat Landscape — Reference Card
 
-**Cisco AI Technical Workshop — London, 16 June 2026**
 **Session 4: Securing AI**
 
 ---
@@ -109,5 +108,4 @@ The ARK Industries agent is asked to check network devices across all managed si
 
 ---
 
-*Cisco AI Technical Workshop — London, 16 June 2026 | Session 4: Securing AI*
 *This reference card is yours to keep. Use it as a starting point for a threat discussion with your security or IT leadership team.*
