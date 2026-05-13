@@ -21,9 +21,9 @@ By the time you leave this room at 11:00 a.m., the rest of the day will make con
 
 ## How This Session Works
 
-The first hour is facilitator-led — a presentation with discussion woven in. Expect to be asked questions, not just talked at. The session is designed around analogies, because analogies are how experienced professionals actually absorb new frameworks quickly. You do not need to memorise definitions. You need to be able to reason with the concepts.
+This session is facilitator-led — a presentation with discussion woven in. Expect to be asked questions, not just talked at. The session is designed around analogies, because analogies are how experienced professionals actually absorb new frameworks quickly. You do not need to memorise definitions. You need to be able to reason with the concepts.
 
-The final 30 minutes is a group activity (see below). It requires nothing but your experience, a pen, and the people sitting next to you.
+The final part is a group activity (see below). It requires nothing but your experience, a pen, and the people sitting next to you.
 
 ---
 
@@ -39,7 +39,7 @@ You are not expected to have read it before the session begins. It is a referenc
 
 ## The Group Activity — The ARK Industries Co-Pilot Audit
 
-Towards the end of Session 1, you will spend 30 minutes working in small groups of three or four.
+Towards the end of Session 1, you will spend some minutes working in small groups of three or four.
 
 **The scenario:** ARK Industries — the fictional IT-intensive company that runs through the entire day — has given your group a small budget and one instruction: identify where an AI co-pilot would genuinely help, and where it should be kept well away.
 
@@ -59,7 +59,7 @@ Groups share back to the room. There are no wrong answers — only answers that 
 
 ## What Comes Next
 
-At 11:00 a.m. you move to **Session 2: Building AI Assistants**. That is where the laptops come out for the first time.
+After this activity you move to **Session 2: Building AI Assistants**. That is where the laptops come out for the first time.
 
 You will install a local AI runtime, connect it to two external tools — web search and file access — and use the finished assistant to analyse a real ARK Industries network report. Everything you do in that lab is built on the concepts from this session.
 
