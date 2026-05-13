@@ -1,8 +1,6 @@
 # Session 1 — Group Activity Worksheet
 ## The Prompt Challenge: Designing an AI Assistant
 
-**Cisco AI Technical Workshop · London, 16 June 2026**
-
 ---
 
 ### How This Works
