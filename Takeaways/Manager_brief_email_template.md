@@ -42,21 +42,6 @@ This is a low-risk starting point precisely because the tools stay local, the sc
 
 ---
 
-## Personalisation Notes
-
-The following placeholders need your attention before sending:
-
-| Placeholder | What to Write |
-|---|---|
-| `[MANAGER NAME / LEADERSHIP TEAM]` | The specific person or distribution list you are addressing |
-| `[DATE]` (subject line and body) | 16 June 2026 — or adjust if you are sending some weeks later |
-| `[TEAM/FUNCTION]` | The specific team you would involve in the pilot — keep it small; two to four people is enough |
-| `[SPECIFIC TASK]` | The single most valuable use case you identified during the workshop — the one you wrote on the Agent Design Canvas |
-| `[THIS WEEK / NEXT WEEK]` | Be specific — the vaguer the ask, the easier it is to defer |
-| `[YOUR NAME / ROLE / CONTACT]` | Your details |
-
----
-
 ## If You Get a "Not Now" Response
 
 That is a useful answer too. The three most common objections and a brief response to each:
@@ -71,6 +56,3 @@ The pilot does not require dedicated headcount. It is two to four people testing
 The business case is time saved on a specific, measurable task. Identify one task your team currently does manually that involves reading documents, comparing them to external sources, or producing a structured written output. Run the agent on that task. Measure the time difference. That is the business case — built from your own numbers, not vendor projections.
 
 ---
-
-*Cisco AI Technical Workshop — London, 16 June 2026*
-*This template is yours to adapt and use. Remove this footer before sending.*
