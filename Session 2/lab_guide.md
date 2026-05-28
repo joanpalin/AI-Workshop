@@ -354,7 +354,7 @@ Read the response. Note that the model answers from its training data. The infor
 
 ### Step 3 — Ask the same question WITH Tavily web search
 
-Now ask the same question, but this time explicitly direct the AI to use its web search tool:
+Turn the Tavily MCP Server ON. Now ask the same question, but this time explicitly direct the AI to use its web search tool:
 
 ```
 Search the web for the latest NCSC guidance on securing AI in enterprise environments. Use Tavily.
@@ -373,7 +373,7 @@ Compare the two responses. Notice:
 
 ### Step 4 — Access the ARK Industries network report via Filesystem MCP
 
-Type the following in the chat:
+Turn the Filesystem MCP Server ON. Type the following in the chat:
 
 ```
 Read the ARK Industries network report and tell me the three most urgent issues right now.
