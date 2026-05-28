@@ -1,0 +1,40 @@
+ARK Industries — IT Policy Summary
+Version: 3.2 | Last updated: March 2026
+Approved by: IT Director, Diane Okafor
+
+AI TOOL USAGE POLICY
+─────────────────────
+Approved AI tools (as of March 2026):
+  - Microsoft Copilot (enterprise licence — all staff)
+  - Claude Teams (IT and engineering departments only)
+
+Prohibited actions with any AI tool:
+  - Uploading customer data, intellectual property, or regulated data to any AI tool
+  - Using personal/consumer AI accounts on work devices for work tasks
+  - Inputting financial forecasts, M&A information, or board-level documents
+
+Requirements:
+  - All AI-generated content must be reviewed by a human before use in official documents
+  - Any new AI tool must be approved by the IT Director before use
+  - AI tool usage is logged via Cisco AI Access for compliance audit purposes
+
+PASSWORD AND ACCESS POLICY
+───────────────────────────
+  - Minimum password length: 16 characters
+  - MFA required: all remote access and all cloud services (no exceptions)
+  - Privileged access review: quarterly — managed by Marcus Webb
+  - Contractor access: granted for project duration only, reviewed monthly
+
+DEVICE POLICY
+──────────────
+  - All managed devices must be enrolled in Cisco Meraki MDM within 24 hours of provisioning
+  - BYOD: personal devices permitted for Webex and email via managed app only
+  - USB storage: prohibited on all managed devices since January 2026
+  - Lost or stolen devices: report immediately to security@ark-industries.co.uk and IT Director
+
+INCIDENT REPORTING
+───────────────────
+  - All security incidents: report to security@ark-industries.co.uk within 1 hour of discovery
+  - P1 incidents: escalate immediately to IT Director (ext. 4400) and CISO
+  - Post-incident review required within 5 business days for all P1 and P2 incidents
+  - Near-misses: encouraged to report via the same channel — no blame culture
