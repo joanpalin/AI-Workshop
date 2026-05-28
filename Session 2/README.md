@@ -39,7 +39,7 @@ Make sure you have the following ready:
 
 - **Your laptop** — with administrator rights (you will be installing software)
 - **Wi-Fi connected** — you will need a working internet connection to download software and to use Tavily web search
-- **ARK Industries file pack** — distributed via USB stick or QR code before this session. The pack contains two files — save both into the same folder on your laptop:
+- **ARK Industries file pack** — You can find them in the folder within the guide. The pack contains two files — save both into the same folder on your laptop:
   - **`network-report-site-A.txt`** — used in this session (Session 2)
   - **`it-policy-summary.txt`** — used in Session 3
   - If you do not have the file pack, ask a facilitator now.
