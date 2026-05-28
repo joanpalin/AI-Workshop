@@ -266,6 +266,8 @@ You need to tell the Filesystem server exactly where on your laptop the ARK Indu
 
 Both **Tavily Web Search** and **filesystem** are listed in the MCP Servers panel under Settings. Both have their enable toggle switched ON. You are ready to create your assistant.
 
+**Now turn both MCP servers OFF and we will turn it on once we progress the lab.**
+
 ---
 
 ## Phase 6: Create Your ARK Industries Assistant
