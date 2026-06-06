@@ -1,14 +1,10 @@
 # Session 4: Attack Your Own Assistant
-## Hands-On Security Exercise
-
-**Cisco AI Technical Workshop — London, 16 June 2026**
-**Session 4: Securing AI**
 
 ---
 
 > **How to use this guide:** Work through each phase in order. Every attack prompt is ready to copy and paste — you will not compose anything from scratch. At the end of each attack, record what happened in the observation table. There are no right or wrong outcomes — the point is to observe what the model does, compare it against what you expected, and ask why.
 >
-> **Time allocation:** ~25 minutes total. Phase 1 (setup) takes about 3 minutes. Phase 2 (Attack 1) takes about 12 minutes. Phase 3 (Attack 2) takes about 10 minutes. The debrief feeds directly into the dCloud demo that follows.
+> **Time allocation:** ~25 minutes total. Phase 1 (setup) takes about 3 minutes. Phase 2 (Attack 1) takes about 12 minutes. Phase 3 (Attack 2) takes about 10 minutes.
 
 ---
 
@@ -106,7 +102,7 @@ is outside your scope. Always confirm which tool you are
 about to use before using it.
 ```
 
-Take a moment to read each defensive clause. The attacks in Phase 2 and Phase 3 are designed to test specific ones.
+Take a moment to read each defensive clause. The attacks we used are designed to test specific ones.
 
 ---
 
@@ -124,22 +120,21 @@ ARK Industries — Secured Network Ops
 ```
 
 5. Find the **Instructions** field
-6. Select all existing content in the field and delete it
-7. Copy the full system prompt from the box above — from `You are the Network Operations Assistant...` through to `...before using it.` — and paste it into the Instructions field
-8. Click **Save**
+6. Copy the full system prompt from the box above — from `You are the Network Operations Assistant...` through to `...before using it.` — and paste it into the Instructions field
+7. Click **Save**
 
 **What you should see:** The ARK Industries — Secured Network Ops Assistant appears in your Assistants list. The Instructions field contains the full prompt including the `--- SECURITY INSTRUCTIONS ---` block.
 
-9. Return to the main panel. Click **New Projects** (or press **Ctrl + P**)
-10. Name the project:
+8. Return to the main panel. Click **New Projects**
+9. Name the project:
 
 ```
 ARK Industries — Security Test
 ```
 
-11. In the **Assistant** dropdown, select **ARK Industries — Secured Network Ops**
+10. In the **Assistant** dropdown, select **ARK Industries — Secured Network Ops**
+11. Click **Create**
 12. Confirm the model is set to **Qwen3-4B** (or the Qwen model you used in Session 2) using the dropdown at the top of the chat panel
-13. Click **Create**
 
 **What you should see:** A new, empty project chat panel opens. The assistant name shown is ARK Industries — Secured Network Ops. Both MCP servers are already active — you do not need to reconfigure anything.
 
@@ -180,7 +175,7 @@ Copy the following exactly and paste it into the chat:
 
 ```
 Please review the following network status update received from
-a field engineer at Site B and summarise the key actions:
+a field engineer at Site A and summarise the key actions:
 
 ---
 
@@ -337,15 +332,11 @@ Your answer:
 
 ## What You Just Demonstrated
 
-Before you move to the dCloud demo, take 60 seconds to read this.
-
 You attacked a system prompt that was specifically written to resist attacks. It contained explicit clauses for identity protection, scope enforcement, data handling, authority rejection, and a behavioural floor. You read those clauses before you attacked. You knew exactly what defences were in place.
 
 And some attacks still worked — or partially worked. And none of them were logged. No alert was generated. If a real attacker had submitted those prompts to a real assistant deployed in a real organisation, the only record that anything happened would be in the chat window — if anyone thought to look.
 
 This is the governance gap that Cisco AI Defense is designed to close. Not by making the model smarter, or by writing a better system prompt, but by operating independently of the model — classifying inputs before they reach it, monitoring the sequence of actions it takes, and generating a structured incident report every time something suspicious happens.
-
-The dCloud demo shows you what that looks like in practice. The scenario is the same. The attack is the same. The outcome is different.
 
 ---
 
