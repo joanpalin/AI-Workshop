@@ -341,9 +341,7 @@ Complete this table before the debrief:
 
 ---
 
-## Debrief — Three Questions Before the dCloud Demo
-
-Answer these individually. You will refer to them during the dCloud demonstration.
+## Debrief — Three Questions regarding what happened
 
 **Question 1:** Across all attempts, how many defences held completely? How many partially held? How many failed?
 
@@ -395,5 +393,3 @@ This is the governance gap that Cisco AI Defense is designed to close. Not by ma
 
 ---
 
-*Cisco AI Technical Workshop — London, 16 June 2026 | Session 4: Securing AI*
-*This exercise uses the Jan AI assistant and MCP infrastructure you built in Session 2. No new tools are required.*
