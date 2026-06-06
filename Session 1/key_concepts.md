@@ -90,7 +90,7 @@ Keep this card open throughout the day. Every term used in the sessions is defin
 
 **What it is:** An AI that doesn't just answer questions — it takes a sequence of independent actions to complete a goal. It can plan, use tools, check its own progress, and adapt to what it finds, rather than waiting for a human to direct each move.
 
-**Important distinction:** Agentic AI is the subject of Session 3. Both sessions use the same local model (Qwen3-4B). The shift between them is not about model size — it is about task type and application concept. Session 2 uses Jan AI's Assistants for conversational Q&A. Session 3 uses Jan AI's Projects, a purpose-built environment for agentic workflows where the agent plans and executes a full sequence of steps autonomously, rather than responding to individual questions.
+**Important distinction:** While, Session 2 uses Jan AI's Assistants for conversational Q&A, Agentic AI is the subject of Session 3. Both sessions use the same local model (Qwen3-4B). The shift between them is not about model size — it is about task type and application concept. Session 3 uses Jan AI's Projects, a purpose-built environment for agentic workflows where the agent plans and executes a full sequence of steps autonomously, rather than responding to individual questions..
 
 **Why it matters at ARK Industries:** An agentic AI could be given a goal — "Produce a firmware compliance summary for all ARK Industries sites" — and complete the entire research, retrieval, analysis, and drafting process independently, presenting a finished result for human review.
 
