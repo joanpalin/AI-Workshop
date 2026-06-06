@@ -1,7 +1,5 @@
 # Key Concepts — Session 1: AI Fundamentals
 
-**ARK Industries AI Workshop · Park House, London · 16 June 2026**
-
 Keep this card open throughout the day. Every term used in the sessions is defined here. No one is expected to memorise any of this — use **Ctrl+F** (Windows) or **Cmd+F** (Mac) to find what you need.
 
 ---
