@@ -12,7 +12,7 @@ Now this session asks the question that has probably been forming in the back of
 
 That is not a hypothetical question. Every component of the architecture you built today — the local model, the MCP-connected tools, the agentic workflow — exists in enterprise deployments at scale right now. And in most organisations, the governance layer to protect it does not yet exist.
 
-This session changes that. By the end, you will have named the specific threats AI introduces, understood why visibility must come before policy, seen Cisco's purpose-built response in a live environment, and produced a draft AI Acceptable Use Policy you can take back to your organisation and use.
+This session changes that. By the end, you will have named the specific threats AI introduces, understood why visibility must come before policy, seen Cisco's purpose-built response in an environment, and produced a draft AI Acceptable Use Policy you can take back to your organisation and use.
 
 ---
 
@@ -45,7 +45,6 @@ Cisco AI Access and Cisco AI Defense are not presented here as hypothetical futu
 
 Together, they cover the full AI footprint — what your employees are reaching out to, and what your organisation has built and deployed.
 
-These are not abstract enterprise products. The AI assistant you built in Session 2 and the agent you ran in Session 3 are exactly the kind of workloads they are designed to protect.
 
 ---
 
@@ -63,7 +62,7 @@ These are not abstract enterprise products. The AI assistant you built in Sessio
 
 1. **Name the threats** — five categories of AI-specific risk, all active in enterprise environments today, none of them detectable by a traditional firewall
 2. **Attack your own assistant** — paste three pre-written prompt injection attempts into your Jan AI ARK Industries assistant from Session 2 and observe what happens when there is no governance layer
-3. **See Cisco's response** — navigate a live Cisco AI Canvas and AI Defense environment showing ARK Industries' AI deployment under a simulated attack
+3. **See Cisco's response** — navigate AI Defense environment showing acustomer's AI deployment and asset visiblity
 4. **Draft your policy** — complete the first version of an ARK Industries AI Acceptable Use Policy using the template provided; the blank version is yours to take back and adapt for your own organisation
 
 ---
@@ -73,16 +72,14 @@ These are not abstract enterprise products. The AI assistant you built in Sessio
 By the time this session closes, you will have:
 
 - A vocabulary for AI-specific threats that you can use in a governance conversation with a CISO or board
-- A lived understanding of what prompt injection looks like in practice — not just as a concept on a slide
+- A lived understanding of what prompt injection looks like in practice
 - A reference overview of the Cisco tools designed to address the governance gap
-- A draft AI Acceptable Use Policy that is ready for internal review and adaptation
+- A draft AI Acceptable Use Policy that is suitable for internal review and adaptation
 
 ---
 
 ## What Comes Next
 
 This session is the final structured block of the day. After this, the workshop moves into the **General Discussion & Q&A** — an open forum where the facilitators, Cisco team, and the room work through the questions that have been building throughout the day.
-
-Bring your whiteboard votes from this session. Bring your AUP draft. Bring the thing you want to build first.
 
 ---
