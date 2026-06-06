@@ -48,13 +48,13 @@ In Sessions 2 and 3, you built AI tools and used them. You directed your AI assi
 
 In your organisation, employees are doing the equivalent of this — submitting work-related content to external AI services — without that controlled environment and without IT's knowledge. AI Access is the tool that makes that activity visible and manageable.
 
-The AI Canvas dashboard you navigated in the dCloud demo showed you what that visibility looks like in practice: a structured view of which AI tools are active on the network, categorised by risk tier, with data category breakdowns for each.
+ The AI Defense dashboard showed you what that visibility looks like in practice: a structured view of which AI tools are active on the network, categorised by risk tier, with data category breakdowns for each.
 
 ### ARK Industries Use Case
 
 ARK Industries has approximately 400 employees across three sites. The IT team suspects that several teams — particularly the project management and customer success functions — are regularly using personal AI tools to draft client communications and summarise internal reports.
 
-With Cisco AI Access deployed, the IT team opens the AI Canvas dashboard on a Monday morning and sees:
+With Cisco AI Access deployed, the IT team opens the AI Access dashboard on a Monday morning and sees:
 
 - 12 distinct AI services accessed across the ARK Industries network in the past 7 days
 - 4 of those services are categorised as Approved
@@ -100,14 +100,6 @@ The Jan AI assistant you built in Session 2 — running locally, connected to Ta
 
 The Jan AI agent you ran in Session 3 — autonomously searching the web, reading the IT policy document, drafting a gap analysis before pausing for your approval — is exactly the kind of agentic sequence that AI Defense monitors for anomalous behaviour.
 
-In the dCloud demo, you observed AI Defense responding to a simulated prompt injection attempt against the ARK Industries AI assistant. You saw:
-
-- The injection attempt classified at the governance layer, independently of the model's own response
-- The automated action taken (block or flag) and the decision logic behind it
-- The structured incident report generated for the security team to triage
-
-The contrast with your earlier exercise was intentional. Same type of attack. Completely different outcome when the governance layer is present.
-
 ### ARK Industries Use Case
 
 ARK Industries has deployed an internal AI assistant for the IT operations team, built on the same architecture as the one produced in Session 2: a local model, connected to a web search tool and a read-access file system integration covering the network documentation folder.
@@ -133,7 +125,7 @@ The analyst made the response decision. AI Defense provided everything needed to
 |---|---|---|
 | **What it governs** | External AI tools employees access from the corporate network | Internal AI tools and agents the organisation has deployed |
 | **Primary function** | Visibility and access policy for employee AI usage | Threat detection, classification, and incident reporting for deployed AI workloads |
-| **Key output** | AI Canvas dashboard — a real-time view of AI usage, data categories, and tool risk tiers | Structured incident reports — human-readable, actionable records of detected threats |
+| **Key output** | Defense ashboard — a real-time view of AI usage, data categories, and tool risk tiers | Structured incident reports — human-readable, actionable records of detected threats |
 | **Who uses it** | IT team and security team — for inventory, policy-setting, and compliance | Security team — for monitoring, triage, and incident response |
 | **What it connects to in this workshop** | The AI tools you used in Sessions 2 and 3 — the external access dimension | The AI tools you built in Sessions 2 and 3 — the internal deployment dimension |
 | **Threats it addresses** | Shadow AI primarily; supports governance response to all five threat categories | Prompt Injection, Data Exfiltration via AI, Hallucination Risk (via monitoring and logging); supports response to all five threat categories |
@@ -142,7 +134,7 @@ The analyst made the response decision. AI Defense provided everything needed to
 
 ## A Note on Integration
 
-Both solutions are designed to work with existing Cisco infrastructure. They are not rip-and-replace proposals. AI Access integrates with existing network security architecture — including Cisco Secure Access — and extends it to classify and govern AI-specific traffic. AI Defense integrates with AI workloads regardless of the underlying model or platform.
+Both solutions are designed to work with existing Cisco infrastructure. They are not rip-and-replace proposals. AI Access integrates with existing network security architecture and extends it to classify and govern AI-specific traffic. AI Defense integrates with AI workloads regardless of the underlying model or platform.
 
 If your organisation has concerns about integration with existing tools or infrastructure, that is the right question for a scoping conversation with the Cisco team. The conversation does not require a budget approval or a project plan to start — it requires a one-hour call.
 
@@ -150,11 +142,11 @@ If your organisation has concerns about integration with existing tools or infra
 
 ## Starting Point
 
-The most common response from IT professionals after this session is: "This makes sense, but I'm not sure where to start."
+The most common response from IT professionals after a session like this: "This makes sense, but I'm not sure where to start."
 
 The practical answer, based on what you have seen today:
 
-1. **Start with visibility.** You cannot write a policy, make a risk decision, or have a credible conversation with your CISO until you know what is actually happening on your network. AI Canvas is that starting point.
+1. **Start with visibility.** You cannot write a policy, make a risk decision, or have a credible conversation with your CISO until you know what is actually happening on your network. AI Defense and AI Defense is that starting point.
 
 2. **Use the AUP draft you produced today.** It is an imperfect first version. That is appropriate — it is a draft, not a finished policy. Take it to your CISO or IT security lead and use it to start the governance conversation.
 
@@ -163,5 +155,3 @@ The practical answer, based on what you have seen today:
 The organisations that act on this now — even with a first draft and a single conversation — will be ahead of the ones that wait for a perfect plan.
 
 ---
-
-*This reference card is yours to keep. The blank AI Acceptable Use Policy template (`ai_acceptable_use_policy_template.md`) is in this folder — adapt it for your organisation.*
