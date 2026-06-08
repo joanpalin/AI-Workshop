@@ -398,9 +398,7 @@ Copy the instructions from the grey block at the top of this lab guide and save 
 
 ## Phase 8: Design Your Own Agentic Workflow
 
-Everything you need for this activity is in the GitHub repository. Open the **Agent Design Canvas** file from the repository and work through it in a text editor.
-
-Turn to the person next to you. Work through two questions together for five minutes:
+Everything you need for this activity is in the page on the table. Turn to the participants on the table and work through two questions together for five minutes:
 
 **Question 1:** What would you change about the goal prompt we used today to make the output more useful for your specific organisation? Think about your actual IT policies, the frameworks that matter to your compliance team, and the specific risks your CISO cares about.
 
