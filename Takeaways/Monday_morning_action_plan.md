@@ -1,7 +1,5 @@
 # Monday Morning Action Plan
 
-## Cisco AI Technical Workshop — London, 16 June 2026
-
 ---
 
 > **How to use this document:** Pick one experiment. Just one. Do it this week. Then pick another. The goal is not to transform your organisation in a fortnight — it is to build enough direct experience that you can speak about AI from practice, not from theory. Every experiment below requires only the tools you used today, costs nothing, and can be run on your own laptop without involving your IT department.
