@@ -1,7 +1,5 @@
 # Cisco Learning Resources — Next Steps After the Workshop
 
-## Cisco AI Technical Workshop — London, 16 June 2026
-
 ---
 
 > **How to use this document:** The workshop gave you the foundations and working prototypes. This page is your map for going further. Every resource below is free or has a meaningful free tier.
