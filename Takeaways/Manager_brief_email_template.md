@@ -1,7 +1,5 @@
 # Manager Brief — Email Template
 
-## Cisco AI Technical Workshop — London, 16 June 2026
-
 ---
 
 > **How to use this template:** Fill in every `[PLACEHOLDER]` with your own details. Read it back to yourself before sending — it should sound like you, not like a workshop handout. If a section does not fit your organisation or your relationship with your manager, cut it or rewrite it. The structure is a guide, not a script. Send it this week, while the conversation is easy to start.
