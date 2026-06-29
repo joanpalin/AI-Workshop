@@ -399,33 +399,8 @@ This is not a criticism of LM Studio. It is a real architectural observation: **
 
 This is the governance gap that Cisco AI Defense is designed to close.
 
----
 
-## Phase 4: The Cisco Response
-
-The facilitator will now walk the room through the Cisco AI Access and AI Defense demo environment. This phase is facilitated — you observe and participate in the discussion rather than following steps on your laptop.
-
-**What you are about to see:**
-
-Cisco AI Access and Cisco AI Defense are not presented here as hypothetical future tools. They are the purpose-built enterprise response to the exact threats you just demonstrated against your own assistant, designed to govern the exact architecture you have been building all day.
-
-**Cisco AI Access** gives your IT and security team the visibility they currently lack: which AI tools are in use on the network, by whom, how often, and what categories of data are being submitted. From that visibility, you can set policy — approve tools, block tools, and apply conditional access rules where needed.
-
-**Cisco AI Defense** protects the AI tools your organisation has deployed internally. It monitors for prompt injection attempts, detects anomalous behaviour in agentic workflows, and generates structured incident reports that your security team can triage and act on — independently of whatever the model itself does or does not catch.
-
-**The contrast with what you just did:**
-
-In your attack exercise, some prompts were rejected. Some may have partially succeeded. None of the attempts were logged. No alert was generated. The model tried its best — and that is not enough for a production environment handling real data.
-
-With Cisco AI Defense in place, the same attacks look completely different: each attempt is classified at the governance layer before it reaches the model. Blocked attempts generate structured incident reports. The security team gets a triage queue, not a chat log to search through manually.
-
-Same attack. Same assistant architecture. Completely different outcome when the governance layer is present.
-
-> 💡 **Reference:** The `Cisco_AI_stack_reference.md` file in the Session 4 GitHub folder contains a plain-English summary of both products and a worked ARK Industries use case for each. It is available to take away and share with your security team.
-
----
-
-## Phase 5: Draft Your AI Acceptable Use Policy
+## Phase 4: Draft Your AI Acceptable Use Policy
 
 The final activity of the day. The AI Acceptable Use Policy (AUP) template is available in the workshop GitHub repository — open `AI_acceptable_use_policy_template.md` or use the printed version distributed in the room.
 
